@@ -1,0 +1,16 @@
+All the steps that I have done during the task:
+
+1. grouping the data order status wise.
+2. Finding the total cost price and total final price for each status using sumifs.
+3. finding the total profit by substracting only delivered products cost price from total final price.
+4. By adding all the values of final settlement price  we will get our total payment received for entire month.
+5. Then I created a pivot table by grouping SKUs and added 2 columns cost price and final price for each sku groups.
+6. Substracting cost price from final price product wise I am getting my profitability for each product.
+7. Dividing sum of final price state wise/order status wise from total payment received for entire month we will get our sales % for each state.
+8. Other Metrics:
+	 
+	a. Average order value --> We can find average order value by dividing (total payment received / total number of order received)
+	b. we can also find percentage of each order staus by (number of orders in each status / total number of orders).
+		 so we got return rate = 6.45%
+			   Cancelled rate = 1.08%
+			   
